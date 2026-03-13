@@ -120,7 +120,7 @@ dt {
 
 
 footer {
-     font-size:75%; /* fsz75% */
+    font-size:75%; /* fsz75% */
     font-style:italic; /* fsi */
     text-align:center; /* tac */
     font-family:Georgia, 'Times New Roman', serif;
@@ -154,3 +154,4 @@ footer {
     background-image: url(images/trail.jpg);
 
 }
+
