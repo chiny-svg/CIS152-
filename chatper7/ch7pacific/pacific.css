@@ -120,15 +120,13 @@ dt {
 
 
 footer {
-    font-size:75%; /* fsz75% */
-    font-style:italic; /* fsi */
-    text-align:center; /* tac */
-    font-family:Georgia, 'Times New Roman', serif;
-    padding: 2em; /* p2em */
-    margin-left: 190px; /* ml190px */
-    background-color: #fff; /* bgc#fff */
+    background-color: #fff;
+    font-size: 75%;
+    font-style: italic;
+    margin-left: 190px;
+    padding: 2em;
+    text-align: center;
 }
-
 
 .resort {
     color: #1976d2; /* c#1976d2 */  
@@ -152,6 +150,4 @@ footer {
 }
 #trailhero {
     background-image: url(images/trail.jpg);
-
 }
-
