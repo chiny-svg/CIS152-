@@ -129,7 +129,7 @@ address {
 } 
 
 footer {
-    background-color: linear-gradient(to bottom, #fff, #90c7e3); 
+    background-image: linear-gradient(to bottom, #fff, #90c7e3); 
     color: #fff;
     font-size: 0.9rem;
     font-style: normal;
@@ -360,6 +360,7 @@ input[type="submit"]:focus {
     
     footer { 
         padding: 1em; 
+        background-color: #000032;
     } 
     
     form { 
@@ -435,3 +436,4 @@ input[type="submit"]:focus {
 .about-grid img {
     margin-top: 2rem;
 }
+
