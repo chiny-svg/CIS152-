@@ -1,0 +1,22 @@
+* { 
+    box-sizing: border-box; 
+} 
+
+html { scroll-behavior: smooth; }  
+
+body { 
+    background-color: #ffffff; 
+    margin: 0; 
+    padding: 0; 
+    color: #555; 
+    font-family: Arial, sans-serif; 
+}  
+
+#wrapper { 
+    margin: auto; 
+    max-width: 75rem; 
+    width: 90%; 
+}  
+
+header { background-color: #000032; background-image: url(images/sunset.jpg); background-position: right; background-repeat: no-repeat; color: #fff; padding: 1rem; text-align: center; } header a { text-decoration: none; color: #fff; } /* 5. NAVIGATION: The menu buttons */ nav { font-size: 120%; font-weight: bold; text-align: center; } nav ul { display: flex; flex-direction: column; /* Stack links on top of each other for phones */ list-style-type: none; margin: 0; padding: 0; } nav li { border-bottom: 1px solid #003; padding: 0.5em 0; } /* 6. MAIN CONTENT: The middle of your page */ main { background-color: #fff; padding: 1.5rem; } h2 { color: #1976d2; text-shadow: 1px 1px #ccc; } /* 7. GRID LAYOUT: Puts text and pictures side-by-side */ .about-grid { display: grid; grid-template-columns: 1fr; /* One column for phones */ gap: 2rem; } address { font-style: normal; } /* 8. MEDIA QUERIES: Changes the layout for bigger screens */ @media (min-width: 600px) { nav ul { flex-direction: row; /* Links sit in a line on big screens */ justify-content: center; } nav li { border-bottom: none; padding: 0 1rem; } .about-grid { grid-template-columns: 2fr 1fr; /* Text gets 2 parts, images get 1 part */ } }
+
